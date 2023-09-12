@@ -35,9 +35,11 @@ echo "5 と6を足したら {$add} になった \n";
 
 
 
-//今回のnumAdd()関数で、引数が「intまたはfloatであること」という制約は、PHP7までは書けない
-//PHP8以降は以下の書式で可能
+/*今回のnumAdd()関数で、引数が「intまたはfloatであること」という制約は、PHP7までは書けない
+PHP8以降は以下の書式で可能
 
-//2つの引数を「加算する」関数
+2つの引数を「加算する」関数
 function numAdd(int|float $a, int|float $b): int|float
 {
+*/
+
