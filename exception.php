@@ -4,6 +4,9 @@
 //例外はSplFileObject()というクラスを使って発生させる
 
 try {
+  //自力で例外を発生させる(例外を投げる)
+  throw new \Exception("自力で投げた例外");
+
   //例外を発生させる
   $obj = new SplFileObject('dummy');
 
